@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us</title>
+</head>
+<style>
+        body{
+            background-color: green;
+        }
+
+        #page-head{
+           position: sticky;
+           top: 0;
+           z-index: 4;
+        }
+
+       .form{
+            border: 1px solid white;
+            background-color: green;
+            opacity: 0.9;
+            display: flex;
+            padding: 10px;
+            margin-top: none;
+        }
+
+        .Heading{
+            padding-left: 40px;       
+        }
+
+        .button{ 
+            background-color: transparent;
+            border: none;
+            padding-left: 60px;
+            font-size: 16px;
+            cursor: pointer;
+            inline-size: none;
+            margin-top: 60px;  
+            margin-left: 60px; 
+        }
+        input[type="text"], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            border-radius: 4px;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        .Contact{
+            border: 1px solid black;
+            padding-right: 40px;
+            padding-left: 30px;
+            padding-top: 30px;
+            padding-bottom: 40px;
+            background-color: slateblue;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .lform{
+            border: 2px solid black;
+            display: flex;
+            background-color: lightslategray;
+            width: 100%;
+            height: 150px;
+            padding-top: 40px; 
+        }
+
+</style>
+<body>
+
+    <header id="page-head">
+        <div class="form">
+            <img src="images/Logo.jpg" alt="logo" height="80px" width="80px" style="padding-left: 20px; margin-left: 10px;" >
+            <h1 class="Heading">FNWM Company limited</h1>
+            <a href="FNWM Company.html">
+                <button class="button">Home</button>
+            </a>
+            <a href="About Us.html">
+                <button class="button">About Us</button>
+            </a>
+            <a href="Contact Us.html">
+                <button class="button">Contact Us</button>
+            </a>
+            <a href="Sign Up Here.html"> 
+                <button class="button">Sign Up Here</button>
+            </a>
+        </div>
+        </header>
+
+        <div class="container">
+                
+        
+                
+                    <form class="Contact" >
+                        <h2 style="text-align: center;">Contact Us</h2>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="code">Code</label>
+                        <select>
+                            <option value="Kenya">+254</option>
+                            <option value="Uganda">+256</option>
+                            <option value="Rwanda">+250</option>
+                            <option value="Australia">+61</option>
+                            <option value="Canada">+1</option>
+                            <option value="usa">+1</option>
+                        </select>
+
+                        <label for="phoneno">Phone Number:</label>
+                        <input type="text" name="phoneno" placeholder="Enter your Phone number Here">
+                        
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="Kenya">Kenya</option>
+                            <option value="Uganda">Uganda</option>
+                            <option value="Rwanda">Rwanda</option>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height: 170px;"></textarea>
+    
+                        <button style="background-color: blue; cursor: pointer; width: 80px; height: 40px; ">submit</button>
+                    </form>
+        </div>
+
+        <div class="lform">
+            <p style="font-size: large; font-weight: bolder;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food Safety Policy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;Occupational Health and Health Safety Policy.</P>
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                
+                     <a href="#" class="fa fa-whatsapp" style="font-size: 36px;"></a>
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                     <a href="#" class="fa fa-instagram" style="font-size: 36px;"></a>
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                     <a href="#" class="fa fa-twitter" style="font-size: 36px;"></a>
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                     <a href="#" class="fa fa-youtube" style="font-size: 36px;"></a>
+        </div> 
+</body>
+</html>
